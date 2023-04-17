@@ -1,0 +1,44 @@
+.navbar {
+    border-bottom: 1px solid rgb(214, 214, 214);
+
+}
+
+.nav-link {
+    color: rgb(194, 194, 194);
+    font-size: 14px;
+    margin-left: 15px;
+    font-weight: 400;
+}
+
+.mainheading {
+    font-size: 20px;
+    font-weight: 500;
+    color: whitesmoke;
+}
+
+.aboutcontent {
+    color: rgb(220, 220, 220);
+    font-weight: 200;
+}
+
+.aboutsection a {
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+}
+
+.centerline {
+    margin-top: 13px;
+    border-top: 1px solid white;
+    width: 60px;
+}
+#headerimg1{
+    border-radius: 10px 20px;
+}
+
+@media only screen and (max-width:778px) {
+    .headercontent {
+        margin-top: 30px;
+    }
+
+}
