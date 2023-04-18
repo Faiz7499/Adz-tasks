@@ -26,19 +26,149 @@
     text-decoration: none;
     color: white;
 }
+.contenttag h1{
+  text-shadow: 2px 2px  rgb(197, 197, 197);
+}
+.labelq{
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 25px;
+}
+.labelq2{
+    font-size: 35px;
+    font-weight: 600;
+    margin-left: 25px;
+}
+.qnumbers{
+    padding-top: 2px;
+    font-size: 22px;
+    font-weight: 200;
+    color: gray;
+}
+.qheading{
+    padding-right: 50px;
+}
+.qboxes:nth-last-of-type(1),
+.qboxes:nth-last-of-type(3){
+    border-left: 1px solid black;
+    padding-left: 40px;
+}
+.qboxes:nth-last-of-type(3),
+.qboxes:nth-last-of-type(4){
+    border-bottom: 1px solid black;
 
+}
+.qheading h4{
+    font-size: 30px;
+    font-weight: 500;
+}
+.qheading p{
+    color: gray;
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 15px;
+}
 .centerline {
     margin-top: 13px;
     border-top: 1px solid white;
     width: 60px;
 }
 #headerimg1{
-    border-radius: 10px 20px;
+    border-radius: 50px 20px;
 }
+.leftlogo .mainheading{
+    display: none;
+   }
 
-@media only screen and (max-width:778px) {
+
+   
+
+@media only screen and (max-width:768px) {
     .headercontent {
         margin-top: 30px;
     }
+    .qboxes:nth-last-of-type(1),
+    .qboxes:nth-last-of-type(3){
+    border:none;
+    padding-left: 10px;
+}
+.qboxes:nth-last-of-type(3),
+.qboxes:nth-last-of-type(4){
+    border:none;
 
 }
+.boxess{
+    padding-left: 100px;
+    margin-left: 50px;
+
+  }
+
+}
+@media only screen and (max-width:992px) {
+   .leftlogo .mainheading{
+    display: block;
+   }
+ .cengterlogo .mainheading{
+    display: none;
+ }
+ .image-container{
+    margin-left: 0px;
+ }
+ .boxess{
+    padding-left: 100px;
+  
+  }
+}
+
+.boxess{
+    padding-top: 50px;
+    padding-left: 100px;
+  }
+.image-container {
+    border-radius: 50%;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+   
+  }
+
+
+  
+  .image-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+  }
+
+  .image-container:hover::before{
+    transform: translate(20%, 10%);
+    ;
+  }
+  
+  .image-container img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+  } 
+
+ 
+  
+  
+  
+/* 
+  content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background:rgb(0,0, 0, 0.7);
+    z-index: 1; */
