@@ -1,5 +1,6 @@
 .navbar {
     border-bottom: 1px solid rgb(214, 214, 214);
+    width: 100%;
 
 }
 
@@ -81,7 +82,45 @@
    }
 
 
-   
+   @media only screen and (max-width: 447px) {
+    .navbar{
+      width: 560px;
+    }
+    .headers{
+        width: 560px;
+    }
+    .roundeddiv{
+        width: 570px;
+        
+    }
+    .qboxes{
+        margin-left: 100px;
+    }
+    .worksimages{
+        width: 560px;
+    }
+    .dimensionsection{
+        width: 560px;
+    }
+}
+.viewall a{
+    padding-top: 50px;
+   text-decoration: none;
+   color: black;
+   font-size: 20px;
+}
+.worksimages img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.img1 img{
+    border-radius: 0px 0px 0px 100px ;
+}
+.img3 img{
+    border-radius: 0px 100px 0px 0px ;
+}
 
 @media only screen and (max-width:768px) {
     .headercontent {
@@ -104,7 +143,7 @@
 
 }
 .roundeddiv{
-    width: 100%;
+   
     margin-top: 70px;
     background-color: rgb(232, 232, 232);
     padding-bottom: 50px;
@@ -159,7 +198,8 @@
     border-radius: 50%;
     object-fit: cover;
   } 
-
+  
+  
  
   
   
